@@ -64,7 +64,7 @@ def main():
 	print(hero.room.description)
 	while(True):
 		#informUser():
-		cmd = input(">>>")
+		cmd = input("Zork>")
 		analyze(cmd, hero)
 
 #def informUser():
